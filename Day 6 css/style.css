@@ -1,0 +1,30 @@
+*{
+    background-color: antiquewhite;
+     *{
+        margin: 0;
+
+    }
+    h1{
+        background-color:antiquewhite;
+        color:rgb(118, 118, 21);
+
+    }
+    h1, p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .container{
+        width: 200px;
+        height: 200px;
+        background-color:aqua;
+    }
+    .child{
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        margin: 30px;
+    }
+#text{
+    background-color: black;
+    color: chartreuse;
+}
+}

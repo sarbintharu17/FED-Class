@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* text pseudo elements */
+
+        p::first-line{
+            color: rgb(86, 86, 86);
+
+            font-size: larger;
+
+        }
+        p::first-letter{
+            font-style: italic;
+
+        }
+        p.classname::first-line{
+            background-color: rgb(242, 209, 117);
+        }
+        p#id::first-letter{}
+
+        /* content pseudo element */
+
+        p::before{
+            content: url("../../");
+        }
+
+        p:after{
+            content: url();
+
+        }
+        ul.hello li::marker{
+            color:aqua;
+
+        }
+        ul li::selection{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul class="hello">
+        <li>hello</li>
+        <li>a</li>
+        <li>b</li>
+    </ul>
+    <ol>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+    </ol>
+    <p class="classname">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aperiam inventore voluptatibus! Nisi, fuga. Tempora, quia vero dolor inventore rem accusamus sapiente unde quos sequi doloribus reprehenderit eos, numquam autem?</p>
+</body>
+</html>

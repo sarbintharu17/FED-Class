@@ -1,0 +1,40 @@
+.first{
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(211, 240, 240);
+    position: fixed;
+}
+.second{
+    height: 100vh;
+    width: 80vw;
+    background-color: beige;
+    margin-left: 20vw;
+}
+.interface{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+
+
+.profile {
+            display: block;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+    
+        }
+
+        .card {
+     
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
